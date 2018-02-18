@@ -1,0 +1,6 @@
+{
+    "port": 3303,
+    "nyTimesApiUrl": "https://api.nytimes.com/svc/search/v2/articlesearch.json",
+    "nyTimesKey": "f812df0033714097abbac28cc6d9d0ef",
+    "secret": "mysecret"
+}
