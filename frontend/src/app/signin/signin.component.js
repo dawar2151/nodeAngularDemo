@@ -30,6 +30,8 @@ var SignInComponent = (function () {
                 localStorage.setItem('token', data.token);
                 _this.router.navigateByUrl('/articles');
             }
+            else
+                alert(data.message);
             console.log(data);
         });
         this.loading = true;

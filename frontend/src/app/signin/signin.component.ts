@@ -29,7 +29,8 @@ export class SignInComponent implements OnInit {
             if(data.token){
                 localStorage.setItem('token', data.token);
                 this.router.navigateByUrl('/articles');
-            }
+            }else
+                alert(data.message);
             console.log(data);
         });
         this.loading = true;
